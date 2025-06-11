@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RootButton from "@/component/back-buttons/RootButton"
 
 export default function Login() {
   return (
@@ -14,6 +15,8 @@ export default function Login() {
           </p>
         </div>
       </header>
+
+      <RootButton />
 
       {/* Login Form */}
       <section className="py-12">

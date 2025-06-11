@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RootButton from "@/component/back-buttons/RootButton"
 
 export default function Register() {
   return (
@@ -16,11 +17,7 @@ export default function Register() {
         </div>
       </header>
 
-      <div>
-        <Link href='/'>
-          Arrow
-        </Link>
-      </div>
+      <RootButton />
 
       {/* Registration Form */}
       <section className="py-12">

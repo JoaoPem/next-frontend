@@ -19,7 +19,7 @@ export default function Login() {
       <RootButton />
 
       {/* Login Form */}
-      <section className="py-12">
+      <section>
         <div className="container mx-auto px-6 max-w-md">
           <div className="bg-white p-8 rounded-xl shadow-lg">
             <form className="space-y-6">

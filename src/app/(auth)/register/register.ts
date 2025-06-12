@@ -1,3 +1,5 @@
+'use server';
+
 import api from '@/api/axios'
 import { RegisterPayload } from '@/interfaces/user/RegisterPayload'
 
